@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calc.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="calculator">
+            <form action="">
+                <div >
+                    <input type="text" id="result">
+                </div>
+                <div class="calc-buttons" style="margin-top: 10px;" >
+                    <button type="button" onclick="allClear()" class="keytype1">AC</button>
+                    <button type="button" onclick="bspace()" class="keytype1">C</button>
+                    <button type="button" onclick="percentage()" class="keytype1">%</button>
+                    <button type="button" onclick="display('/')" class="keytype2">/</button>
+                    <button type="button" onclick="display('7')">7</button>
+                    <button type="button" onclick="display('8')">8</button>
+                    <button type="button" onclick="display('9')">9</button>
+                    <button type="button" onclick="display('*')" class="keytype2">x</button>
+                    <button type="button" onclick="display('4')">4</button>
+                    <button type="button" onclick="display('5')">5</button>
+                    <button type="button" onclick="display('6')">6</button>
+                    <button type="button" onclick="display('-')" class="keytype2">-</button>
+                    <button type="button" onclick="display('1')">1</button>
+                    <button type="button" onclick="display('2')">2</button>
+                    <button type="button" onclick="display('3')">3</button>
+                    <button type="button" onclick="display('+')"  class="keytype2">+</button>
+                    <button type="button" onclick="display('0')" id="keytype3" >0</button>
+                    <button type="button" onclick="display('.')">.</button>
+                    <button type="button"  onclick="evalExp()" class="keytype2">=</button>
+                  
+
+
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <script src="./script.js"> </script>
+</body>
+</html>
